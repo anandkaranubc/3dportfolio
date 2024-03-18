@@ -19,6 +19,9 @@ import speechRecognition from "./speechRecognition.png";
 import audioSegmentation from "./audioSegmentation.png";
 import ubc from "./ubc.png";
 import seaspan from "./seaspan.png";
+import echo_empathy_icon from "./echo_empathy_icon.jpeg";
+import lock from "./lock.png";
+import exploration from "./exploration.png";
 
 export {
   hero,
@@ -42,4 +45,7 @@ export {
   audioSegmentation,
   ubc,
   seaspan,
+  echo_empathy_icon,
+  lock,
+  exploration
 };

@@ -18,6 +18,9 @@ import {
   audioSegmentation,
   ubc,
   seaspan,
+  echo_empathy_icon,
+  lock,
+  exploration,
 } from "../assets/images";
 
 import {
@@ -308,15 +311,15 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: "echo_empathy_icon", // Placeholder, replace with actual icon URL
-    theme: "btn-back-purple", // Suggesting a new theme color; adjust as needed
+    iconUrl: echo_empathy_icon, // Placeholder, replace with actual icon URL
+    theme: "btn-back-green", // Suggesting a new theme color; adjust as needed
     name: "Echo Empathy",
     description:
       "Co-developed Echo Empathy, a web application leveraging OpenAI and Reddit to match individuals with similar mental health challenges, fostering a community of empathy and support through advanced sentiment analysis algorithms and secure, user-friendly interfaces.",
     link: "https://github.com/Vihangip/EchoEmpathy", // Placeholder, replace with actual link
   },
   {
-    iconUrl: "bluenav_icon", // Placeholder, replace with actual icon URL
+    iconUrl: ubc, // Placeholder, replace with actual icon URL
     theme: "btn-back-blue", // Keeping theme consistent with the project's color scheme
     name: "UBC Degree Navigator - BlueNav",
     description:
@@ -324,15 +327,15 @@ export const projects = [
     link: "https://github.com/ubclaunchpad/ubc-degree-navigator", // Placeholder, replace with actual link
   },
   {
-    iconUrl: "encryption_app_icon", // Placeholder, replace with actual icon URL
-    theme: "btn-back-orange", // Suggesting a new theme color; adjust as needed
+    iconUrl: lock, // Placeholder, replace with actual icon URL
+    theme: "btn-back-red", // Suggesting a new theme color; adjust as needed
     name: "Multipurpose Encryption App",
     description:
       "Developed a Swing-based application enabling users to securely encrypt and decrypt passwords using the customized RSA algorithm and offers user authentication with encrypted credentials, supported by over 300+ test cases for reliability and functionality.",
     link: "https://github.com/anandkaranubc/Encryption-App", // Placeholder, replace with actual link
   },
   {
-    iconUrl: "air_quality_analysis_icon", // Placeholder, replace with actual icon URL
+    iconUrl: exploration, // Placeholder, replace with actual icon URL
     theme: "btn-back-green", // Suggesting a new theme color for differentiation
     name: "Air Quality Analysis in an Italian City",
     description:
